@@ -527,6 +527,22 @@
     <Content Include="web\assets\js\uncompressed\xcharts.js" />
     <Content Include="web\assets\js\wizard.min.js" />
     <Content Include="web\assets\js\xcharts.min.js" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\css\font-awesome.css" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\css\font-awesome.min.css" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\less\bordered-pulled.less" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\less\core.less" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\less\fixed-width.less" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\less\font-awesome.less" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\less\icons.less" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\less\larger.less" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\less\list.less" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\less\mixins.less" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\less\path.less" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\less\rotated-flipped.less" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\less\spinning.less" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\less\stacked.less" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\less\variables.less" />
     <Content Include="web\assets\misc\check-exists.php" />
     <Content Include="web\assets\misc\elfinder-connector\connector.php" />
     <Content Include="web\assets\misc\elfinder-connector\elFinder.class.php" />
@@ -612,6 +628,23 @@
     <Content Include="web\SS-Tracking\LICENSE" />
     <Content Include="web\SS-Tracking\README.md" />
     <Content Include="web\Web.config" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\fonts\FontAwesome.otf" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\scss\font-awesome.scss" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\scss\_bordered-pulled.scss" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\scss\_core.scss" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\scss\_fixed-width.scss" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\scss\_icons.scss" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\scss\_larger.scss" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\scss\_list.scss" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\scss\_mixins.scss" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\scss\_path.scss" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\scss\_rotated-flipped.scss" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\scss\_spinning.scss" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\scss\_stacked.scss" />
+    <Content Include="web\assets\libs\font-awesome-4.2.0\scss\_variables.scss" />
     <None Include="web\Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
