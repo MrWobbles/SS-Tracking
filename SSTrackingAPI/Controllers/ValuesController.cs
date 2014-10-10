@@ -13,11 +13,10 @@ namespace SSTrackingAPI.Controllers
     public class ValuesController : ApiController
     {
 
-
         // GET api/values
         public IEnumerable<string> Get()
         {
-            return new string[] { "Hello", "World" };
+            return new string[] { "Hello ", "World" };
         }
 
         // GET api/values/5

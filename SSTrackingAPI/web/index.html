@@ -100,9 +100,40 @@
 			
 						
 			<div class="row">
-			
-                <div id="test"></div>
-			
+			    
+                <table>
+                    <tr>
+                        <td>Class</td>
+                        <td>Teacher</td>
+                        <td>Co-Teacher</td>
+                        <td>Room</td>
+                        <td>Min Age</td>
+                        <td>Max Age</td>
+                        <td>Add</td>
+                    </tr>
+
+                    <tr>
+                        <td><input class='Class' /></td>
+                        <td><input class='Teacher'/></td>
+                        <td><input class='CoTeacher'/></td>
+                        <td><input class='Room'/></td>
+                        <td><input class='MinAge'/></td>
+                        <td><input class='MaxAge'/></td>
+                        <td><button class="AddClass"><span class="fa fa-plus"></span></button></td>
+                    </tr>
+                </table>
+
+                <table class="ClassDisplay">
+                    <tr>
+                        <th>Class</th>
+                        <th>Teacher</th>
+                        <th>Co-Teacher</th>
+                        <th>Room</th>
+                        <th>Min Age</th>
+                        <th>Max Age</th>
+                    </tr>
+                </table>
+                
 			</div><!--/row-->
 					
 			</div>
@@ -164,6 +195,7 @@
 	<script src="assets/js/jquery.ui.touch-punch.min.js"></script>
 	<script src="assets/js/jquery.sparkline.min.js"></script>
 	<script src="assets/js/fullcalendar.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/mobileservices/MobileServices.Web-1.2.2.min.js"></script>
 	<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="assets/js/excanvas.min.js"></script><![endif]-->
 	<script src="assets/js/jquery.flot.min.js"></script>
 	<script src="assets/js/jquery.flot.pie.min.js"></script>
