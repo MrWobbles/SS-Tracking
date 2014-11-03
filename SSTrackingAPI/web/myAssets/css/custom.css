@@ -1,0 +1,38 @@
+﻿#ClassDisplay li > div,
+#ClassDisplayHead li > div {
+    display: inline-block;
+    width: 190px;
+    padding: 8px;
+    white-space: nowrap;
+}
+#ClassDisplay li > div:last-child,
+#ClassDisplayHead li > div:last-child  {
+    width: 25px;
+}
+#ClassDisplayHead li{
+    font-weight: bold;
+}
+#ClassDisplay li,
+#ClassDisplayHead li {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+}
+#ClassDisplayHead li:first-child{
+    border-top: 1px solid #dedede;
+}
+#ClassDisplay li:last-child {
+    border-bottom: 1px solid #dedede;
+}
+#ClassDisplay, #ClassDisplayHead {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#ClassDisplayHead{
+    margin-top: 16px;
+}
+#ClassDisplay{
+    margin-bottom: 16px;
+}
